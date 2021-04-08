@@ -20,4 +20,7 @@ body {
   );
   display: grid;
   font-family: "Nunito", sans-serif;
+  height: 100vh;
+  margin: 0;
+  place-items: center;
 }
