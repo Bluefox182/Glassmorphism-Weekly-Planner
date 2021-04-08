@@ -76,6 +76,115 @@ body {
 .goals img {
   width: 30px;
 }
+/* Clock */
+.container-clock {
+  display: flex;
+  justify-content: center;
+}
+
+.box {
+  position: relative;
+  z-index: 1;
+  width: 170px;
+  height: 170px;
+  backdrop-filter: blur(25px);
+  border-radius: 50%;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.clock {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  right: 10px;
+  bottom: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: radial-gradient(transparent, rgba(255, 255, 255, 0.2)),
+    url(../img/clock.png);
+  background-size: cover;
+  border-radius: 50%;
+  backdrop-filter: blur(25px);
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  border-bottom: none;
+  border-right: none;
+  box-shadow: -10px -10px 20px rgba(255, 255, 255, 0.1),
+    10px 10px 20px rgba(0, 0, 0, 0.1), 10px 40px 50px rgba(0, 0, 0, 0.2);
+}
+
+.clock::before {
+  content: "";
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  background: #fff;
+  border-radius: 50%;
+  z-index: 10000;
+}
+
+.hour,
+.min,
+.sec {
+  position: absolute;
+}
+
+.hour,
+.hr {
+  width: 75px;
+  height: 75px;
+}
+
+.min,
+.mn {
+  width: 88px;
+  height: 88px;
+}
+
+.sec,
+.sc {
+  width: 100px;
+  height: 100px;
+}
+
+.hr,
+.mn,
+.sc {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  border-radius: 50%;
+}
+
+.hr::before {
+  content: "";
+  position: absolute;
+  width: 6px;
+  height: 35px;
+  background: #ff105e;
+  z-index: 11;
+  border-radius: 6px;
+}
+
+.mn::before {
+  content: "";
+  position: absolute;
+  width: 3px;
+  height: 45px;
+  background: #fff;
+  z-index: 12;
+  border-radius: 6px;
+}
+
+.sc::before {
+  content: "";
+  position: absolute;
+  width: 1px;
+  height: 75px;
+  background: #fff;
+  z-index: 12;
+  border-radius: 6px;
+}
 
 /* Right Container Structure */
 .main-content > div:nth-child(2) {
