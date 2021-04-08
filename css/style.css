@@ -3,5 +3,21 @@
 
 /* Body */
 body {
+  background-image: linear-gradient(
+    to right top,
+    #114da6,
+    #1d55b0,
+    #275dba,
+    #3065c5,
+    #386dcf,
+    #2a7bda,
+    #1989e3,
+    #0096ec,
+    #00aaf1,
+    #00bdf2,
+    #35cff1,
+    #63dfef
+  );
+  display: grid;
   font-family: "Nunito", sans-serif;
 }
