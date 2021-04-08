@@ -25,6 +25,14 @@ body {
   place-items: center;
 }
 
+.glassmorphism-effect {
+  background: rgba(53, 120, 220, 0.2);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(8.5px);
+  -webkit-backdrop-filter: blur(8.5px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
 /* CSS Container Structure */
 .container {
   display: grid;
@@ -49,4 +57,22 @@ body {
 .title p:last-child {
   font-size: 16px;
   margin-bottom: 30px;
+}
+.goals {
+  align-items: center;
+  display: flex;
+}
+
+.goals div {
+  align-items: center;
+  border-radius: 50%;
+  display: flex;
+  height: 40px;
+  justify-content: center;
+  margin-right: 10px;
+  width: 40px;
+}
+
+.goals img {
+  width: 30px;
 }
