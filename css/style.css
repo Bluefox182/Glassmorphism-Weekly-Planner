@@ -1,6 +1,7 @@
 /* Google Fonts */
-@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200;600&display=swap");
-
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Zilla+Slab+Highlight&display=swap");
 /* Body */
 body {
   background-image: linear-gradient(
@@ -19,7 +20,7 @@ body {
     #63dfef
   );
   display: grid;
-  font-family: "Nunito", sans-serif;
+  font-family: "Ubuntu", sans-serif;
   height: 100vh;
   margin: 0;
   place-items: center;
@@ -48,6 +49,7 @@ body {
 }
 
 /* Left Container */
+
 .title p:first-child {
   font-size: 28px;
   font-weight: 600;
@@ -57,6 +59,7 @@ body {
 .title p:last-child {
   font-size: 16px;
   margin-bottom: 30px;
+  font-family: "Roboto", sans-serif;
 }
 .goals {
   align-items: center;
@@ -71,6 +74,10 @@ body {
   justify-content: center;
   margin-right: 10px;
   width: 40px;
+}
+.goals p {
+  font-family: "Roboto", sans-serif;
+  color: #454545;
 }
 
 .goals img {
