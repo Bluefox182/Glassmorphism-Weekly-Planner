@@ -109,7 +109,7 @@ body {
   justify-content: center;
   align-items: center;
   background: radial-gradient(transparent, rgba(255, 255, 255, 0.2)),
-    url(/image/clock.png);
+    url(../image/clock.png);
   background-size: cover;
   border-radius: 50%;
   backdrop-filter: blur(25px);
