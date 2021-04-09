@@ -277,6 +277,13 @@ body {
   width: 100px;
 }
 
+/* Footer */
+.m {
+  position: absolute;
+  bottom: 0;
+  right: 20px;
+}
+
 /* Responsive */
 
 @media (max-width: 1300px) {
