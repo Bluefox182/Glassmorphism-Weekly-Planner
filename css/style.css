@@ -1,7 +1,6 @@
 /* Google Fonts */
 @import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Zilla+Slab+Highlight&display=swap");
 /* Body */
 body {
   background-image: linear-gradient(
@@ -20,7 +19,6 @@ body {
     #63dfef
   );
   display: grid;
-  font-family: "Ubuntu", sans-serif;
   height: 100vh;
   margin: 0;
   place-items: center;
@@ -51,6 +49,9 @@ body {
 /* Left Container */
 
 .title p:first-child {
+  font-family: "Ubuntu", sans-serif;
+  color: rgb(43, 46, 46);
+  text-shadow: 1px 1px 2px rgb(79, 85, 85);
   font-size: 28px;
   font-weight: 600;
   margin: 0;
